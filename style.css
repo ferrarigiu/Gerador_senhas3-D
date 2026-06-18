@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+    --branco:white;
+    --cor-de-fundo:#A5E9DD;
+    --fundo-senha:#6FBEB2;
+    --fundo-texto:#34908B;
+    --borda:#34908B;
+    --fonte:"Elms Sans", sans-serif;
+
+}
+*{
+    font-weight:400;
+}
+body{
+    color: var(--branco);
+    background-color: (--cor-de-fundo);
+    font-family: var(--fonte);
+}
