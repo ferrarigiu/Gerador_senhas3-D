@@ -2,7 +2,7 @@
 
 
 :root{
-    --branco:white;
+    --branco:black;
     --cor-de-fundo:#A5E9DD;
     --fundo-senha:#6FBEB2;
     --fundo-texto:#34908B;
@@ -17,4 +17,20 @@ body{
     color: var(--branco);
     background-color: (--cor-de-fundo);
     font-family: var(--fonte);
+}
+.titulo-principal{
+    fonte-family: var(--fonte);
+    font-size: 32px;
+}
+.titulo-secundario{
+    font-size: 24px;
+    text-align: center;
+    margin: 80px;
+}
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 80px;
+}
+.cadeado-conteudo{
+    width: 180px;
 }
