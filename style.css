@@ -111,12 +111,22 @@ body{
 }
 .fraca{
     width: 25%;
-    background-color: #34908B;
+    background-color: #72d4ec;
 }
-.fraca{
+.media{
     width: 25%;
-    background-color: #34908B;
-}.fraca{
+    background-color: #3595d4;
+}.forte{
     width: 25%;
-    background-color: #34908B;
+    background-color: #365199;
 }
+.parametro-senha__texto{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and(win-width: 768px){
+    .parametro-coluna__senha{
+        flex-direction:row;
+
+    }
+} 
