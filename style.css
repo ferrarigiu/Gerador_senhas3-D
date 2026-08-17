@@ -102,7 +102,9 @@ body{
     cursor: pointer;
 }
 .barra{
-    background-color: var(--cor-de-fundo);    
+    background-color: var(--cor-de-fundo);   
+    height: 30px;
+    width: 100%; 
 }
 .forca{
     height: 30px;
@@ -114,10 +116,10 @@ body{
     background-color: #72d4ec;
 }
 .media{
-    width: 25%;
+    width: 50%;
     background-color: #3595d4;
 }.forte{
-    width: 25%;
+    width: 100%;
     background-color: #365199;
 }
 .parametro-senha__texto{
