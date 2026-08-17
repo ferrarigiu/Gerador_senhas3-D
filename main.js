@@ -8,8 +8,7 @@ const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
 const letrasMinusculas = 'abcdefghijklmnopqrstuvxywz';
 const numeros = '0123456789';
 const simbolos = '!@%*?';
-const emojisCarinhas = ['😀','😎','🤖','👾'];
-const emojisAnimais = ['🦁','🦊','🐼','🦅'];
+const emojis = ['😀','😎','🤖','👾','🦁','🦊','🐼','🦅'];
 const botoes = document.querySelectorAll('.parametro-senha__botao');
 const campoSenha = document.querySelector('#campo-senha');
 const checkbox = document.querySelectorAll('.checkbox');
@@ -55,8 +54,10 @@ function geraSenha() {
     if (checkbox[3].checked) {
         alfabeto = alfabeto + simbolos;
     }
-    if (checkAnimais.checked) {
-    senha += arrayAleatorio(emojisAnimais);
+    if (checkbox[3].checked) {
+        alfabeto = alfabeto + emojis;
+    }
+    
 }
     let senha = '';
     for (let i = 0; i < tamanhoSenha; i++) {
